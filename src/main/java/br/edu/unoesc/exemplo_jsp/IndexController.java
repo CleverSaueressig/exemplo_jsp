@@ -16,7 +16,7 @@ public class IndexController {
 	@RequestMapping("/jsp")
 	String jsp(Model model) {
 		Produto p1 = new Produto("Mesa", 10, new BigDecimal("3.33"));
-		Produto p2 = new Produto("Cadeira", 20, new BigDecimal("33.33"));
+		Produto p2 = new Produto("TVSmart", 39, new BigDecimal("2833.33"));
 
 		List<Produto> produtos = new ArrayList<Produto>();
 		produtos.add(p1);
